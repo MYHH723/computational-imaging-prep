@@ -1,55 +1,84 @@
-📌 Overview
-A structured self-study repository tracking my progress in computational imaging, computer vision, and related mathematical foundations. This repository serves as a personal learning log and code laboratory for exploring algorithms, implementations, and theoretical concepts.
+🌟 What's This Project About?
+This repository documents my 8-week learning journey through computational imaging. Each week focuses on practical implementation of algorithms for solving image inverse problems, with working code, visual results, and clear explanations for beginners.
 
-🎯 Learning Objectives
-Build a solid foundation in image processing and computer vision algorithms
+Problems We Solve:
+Image Denoising: Remove noise while preserving details
 
-Understand the mathematical principles behind computational imaging
+Super-Resolution: Make blurry images sharp and detailed
 
-Develop practical implementation skills using modern tools and libraries
+Compressive Imaging: Reconstruct images from fewer measurements
 
-Explore the intersection of optimization theory and image analysis
+Real Applications: Medical, photography, remote sensing
 
-📚 Curriculum Structure
-Phase 1: Mathematical Foundations (Weeks 1-3)
-Linear Algebra Review: Matrix operations, eigendecomposition, SVD
+📅 8-Week Learning Plan
+Week 1: Foundations & Simple Filters
+Basic image I/O with OpenCV/PIL
 
-Calculus & Optimization: Gradients, convex optimization, gradient descent
+Understanding different noise types
 
-Probability & Statistics: Distributions, Bayesian inference, statistical estimation
+Implementing classic filters (median, Gaussian, bilateral)
 
-Phase 2: Core Computer Vision (Weeks 4-6)
-Image Processing Basics: Filtering, edge detection, morphological operations
+Result: Noise removal toolkit
 
-Feature Extraction: SIFT, SURF, ORB, HOG
+Week 2: Classic Denoising Algorithms
+Wiener filter implementation
 
-Image Transformations: Fourier transform, wavelet transform, geometric transforms
+Total Variation (TV) denoising
 
-Phase 3: Computational Imaging Methods (Weeks 7-9)
-Image Restoration: Deconvolution, denoising, super-resolution
+Non-local means algorithm
 
-Inverse Problems: Regularization methods, compressed sensing
+Result: Comparison of traditional methods
 
-Advanced Topics: Light field imaging, computational photography
+Week 3: Deep Learning Introduction
+First contact with PyTorch
 
-Phase 4: Machine Learning Integration (Weeks 10-12)
-Traditional ML for Vision: SVM, decision trees, clustering for image analysis
+Using pre-trained models (DnCNN, ESRGAN)
 
-Deep Learning Basics: CNN architectures, training pipelines, transfer learning
+Testing on personal photos
 
-Specialized Networks: Autoencoders, GANs, vision transformers
+Result: Before/after comparisons
 
-🛠️ Technical Stack
-Programming: Python (primary), C++ (for performance-critical sections)
+Week 4: Train Your First CNN
+Building a simple denoising CNN
 
-Libraries:
+Creating training data with noise pairs
 
-OpenCV (image processing)
+Training and evaluation pipeline
 
-NumPy/SciPy (numerical computing)
+Result: Your first trained model
 
-Matplotlib/Plotly (visualization)
+Week 5: Super-Resolution in Action
+From interpolation to deep learning
 
-PyTorch (deep learning)
+Implementing SRCNN
 
-Tools: Git, Jupyter Notebooks, Docker, VS Code
+Training on DIV2K dataset
+
+Result: Old photo restoration
+
+Week 6: Compressive Imaging Basics
+Understanding compressed sensing
+
+Random sampling simulations
+
+Neural network reconstruction
+
+Result: Compression demo
+
+Week 7: Domain Specialization
+Option A: Medical imaging (microscopy enhancement)
+
+Option B: Photography (low-light enhancement)
+
+Option C: Remote sensing (satellite image SR)
+
+Result: Domain-specific application
+
+Week 8: Final Project
+Complete end-to-end system
+
+Simple GUI interface
+
+Performance evaluation
+
+Result: Portfolio project
